@@ -1,0 +1,21 @@
+:root {
+    --black: #000000;
+    --grey-black: #282828;
+    --grey-light: #C4C4C4;
+    --soft-white: #F5F5F5;
+}
+
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
