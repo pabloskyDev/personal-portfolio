@@ -19,6 +19,7 @@ html {
 
 body {
     font-size: 1.6rem;
+    background: var(--soft-white);
 }
 header {
     padding: 17px 82px 17px 29px;
@@ -42,4 +43,28 @@ header nav ul li a {
 }
 header nav ul li a:hover {
     text-decoration: underline;
+}
+.main {
+    padding: 0 82px 0 29px;
+}
+.main__title {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+.main__title .title {
+    width: 600px;
+    position: absolute;
+    left: 53px;
+    top: 30px;
+}
+.main__title .title p{
+    font-size: 56px;
+    font-weight: 400;
+}
+.main__title .img {
+    display: inline-block;
+}
+.main__title .img img {
+    object-fit: contain;
 }
