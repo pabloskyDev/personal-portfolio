@@ -68,3 +68,6 @@ header nav ul li a:hover {
 .main__title .img img {
     object-fit: contain;
 }
+.main__projects .gallery {
+    display: flex;
+}
