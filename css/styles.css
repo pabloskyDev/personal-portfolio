@@ -71,6 +71,3 @@ header nav ul li a:hover {
 .main__projects .gallery {
     display: flex;
 }
-.pb-2 {
-    padding-bottom: 2.4rem;
-}
