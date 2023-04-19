@@ -71,3 +71,6 @@ header nav ul li a:hover {
 .main__projects .gallery {
     display: flex;
 }
+.social-media {
+    display: flex;
+}
