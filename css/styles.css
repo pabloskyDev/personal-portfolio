@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro');
+
 :root {
     --black: #000000;
     --grey-black: #282828;
@@ -19,6 +21,7 @@ html {
 
 body {
     font-size: 1.6rem;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     background: var(--soft-white);
 }
 header {
@@ -67,6 +70,10 @@ header nav ul li a:hover {
 }
 .main__title .img img {
     object-fit: contain;
+}
+section h3 {
+    font-size: 3.5rem;
+    font-weight: 500;
 }
 .main__projects .gallery {
     display: flex;
