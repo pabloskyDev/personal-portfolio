@@ -78,6 +78,12 @@ section h3 {
 .main__projects .gallery {
     display: flex;
 }
+.main__projects .gallery figure {
+    width: 200px;
+}
+.gallery figure img {
+    width: 100%;
+}
 .social-media {
     display: flex;
 }
