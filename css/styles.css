@@ -88,6 +88,17 @@ section h3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+.about-content{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+.about-links ul {
+    display: flex;
+    justify-content: space-around;
+}
+.about-links ul li {
+    list-style-type: circle;
+}
 .social-media {
     display: flex;
 }
