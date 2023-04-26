@@ -99,6 +99,10 @@ section h3 {
 .about-links ul li {
     list-style-type: circle;
 }
+.main__clients .content {
+    display: flex;
+    justify-content: space-around;
+}
 .social-media {
     display: flex;
 }
