@@ -103,6 +103,20 @@ section h3 {
     display: flex;
     justify-content: space-around;
 }
+.main__form .content {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+.main__form .content .subtitle {
+
+}
+.content .form form label {
+    display: inline-block;
+}
+input {
+    width: 221px;
+    padding: 0.8rem;
+}
 .social-media {
     display: flex;
 }
