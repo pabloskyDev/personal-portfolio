@@ -62,8 +62,11 @@ header nav ul li a:hover {
     top: 30px;
 }
 .main__title .title p{
-    font-size: 56px;
+    font-size: 52px;
+    line-height: 56px;
+    letter-spacing: -1px;
     font-weight: 400;
+    color: var(--grey-black);
 }
 .main__title .img {
     display: inline-block;
@@ -82,6 +85,12 @@ section h3 {
     width: 200px;
 }
 .gallery figure img {
+    width: 100%;
+}
+.gallery .plus {
+    place-self: center;
+}
+.gallery .plus span {
     width: 100%;
 }
 .main__creations .content {
