@@ -121,3 +121,29 @@
 .ml-4 {
     margin-left: 40px;
 }
+
+/* Bold */
+.bold {
+    font-weight: bold;
+}
+.bold-200 {
+    font-weight: 200;
+}
+.bold-300 {
+    font-weight: 300;
+}
+.bold-400 {
+    font-weight: 400;
+}
+.bold-500 {
+    font-weight: 500;
+}
+.bold-600 {
+    font-weight: 600;
+}
+.bold-700 {
+    font-weight: 700;
+}
+.bold-800 {
+    font-weight: 800;
+}
